@@ -4,8 +4,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 
-namespace RichGagak.Meowtyp
-{
     public class SoundManager : Singleton<SoundManager>
     {
         public enum SoundType
@@ -180,4 +178,4 @@ namespace RichGagak.Meowtyp
             Instance.Dummy();
         }
     }
-}
+
