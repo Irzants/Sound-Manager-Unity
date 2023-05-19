@@ -3,8 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace RichGagak.Meowtyp
-{
     public class UIManager : SceneSingleton<UIManager>
     {
         public RectTransform bottomLayer;
@@ -132,4 +130,4 @@ namespace RichGagak.Meowtyp
         public static T Find<T>() where T : ViewBase => Instance.GetView<T>();
         #endregion
     }
-}
+
