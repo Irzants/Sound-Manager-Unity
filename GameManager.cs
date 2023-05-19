@@ -2,8 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace RichGagak.Meowtyp
-{
     public class GameManager : Singleton<GameManager>
     {
         void Start()
@@ -29,4 +27,3 @@ namespace RichGagak.Meowtyp
             Instance.Dummy();
         }
     }
-}
